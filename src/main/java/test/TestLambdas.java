@@ -35,7 +35,7 @@ public class TestLambdas {
         //Set<String> set = map.values().stream().collect(Collectors.toSet());
         //set.stream().forEach(System.out::println);
 
-        //double averageAge = mapUsers.keySet().stream().filter(x -> x.getName().equals("Juan")).mapToInt(x -> Integer.parseInt(x.getAge())).average().orElse(0.0);
+         //double averageAge = mapUsers.keySet().stream().filter(x -> x.getName().equals("Juan")).mapToInt(x -> Integer.parseInt(x.getAge())).average().orElse(0.0);
         //System.out.println(averageAge);
 
         //list.stream().filter(x -> x.startsWith("A")).forEach(System.out::println);
@@ -44,7 +44,7 @@ public class TestLambdas {
 
         //list.stream().filter(x -> x.equals("AD") || x.equals("aB") ).forEach(System.out::println);
 
-        //list.stream().sorted().forEach(System.out::println);
+        list.stream().sorted().forEach(System.out::println);
 
         //list.stream().map(x -> x.replace("A", "X")).forEach(System.out::println);
 
@@ -63,7 +63,7 @@ public class TestLambdas {
         //System.out.println(mapUsers.keySet().stream().map(x -> x.getName()).collect(Collectors.toList()).stream().reduce((x,y) -> x +"-"+ y ));
 
         //System.out.println(mapUsers.keySet().stream().map(x -> x.getAge()).collect(Collectors.toList()).stream().mapToInt(x -> Integer.parseInt(x)).sum());
-        mapUsers.values().stream().forEach();
+        //mapUsers.values().stream().forEach();
         // -----> flat map
         /** ---->
         List<Integer> numbers = List.of(5, 3, 1, 4, 2);
